@@ -552,3 +552,29 @@ header .nav-btn .sign-up:hover {
     top: 0;
     left: 0;
 }
+
+/* CTA */
+.cta {
+    padding: 76px 0 88px;
+    background: #def6f5;
+}
+.cta .cta-block {
+    display: flex;
+    align-items: center;
+}
+
+.cta .cta-text {
+    margin-right: 410px;
+}
+
+.cta .title {
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: #070707;
+    margin-bottom: 18px;
+}
+
+.cta .desc {
+    font-size: 1.8rem;
+    color: #767e7e;
+}
