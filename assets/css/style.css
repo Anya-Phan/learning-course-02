@@ -339,6 +339,12 @@ header .nav-btn .sign-up:hover {
     margin-bottom: 0;
 }
 
+.popular .header .desc-n-all .view-all {
+    text-decoration: underline;
+    color: #1ebfc1;
+    font-weight: 700;
+}
+
 .popular .popular-list {
     display: flex;
     justify-content: space-between;
@@ -463,4 +469,86 @@ header .nav-btn .sign-up:hover {
     font-weight: 400;
     margin-top: 11px;
     color: #767e7e;
+}
+
+/* Testimonial */
+.testimonial {
+    margin-bottom: 130px;
+}
+
+.testimonial-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testi-text {
+    width: 35.8%;
+}
+
+.testi-text .quote {
+    font-size: 3.2rem;
+    font-weight: 400;
+    color: #5d6564;
+    margin: 27px 0 33px;
+}
+
+.testi-text .sign {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #767e7e;
+}
+
+.testi-text .sign b {
+    font-weight: 500;
+    color: #0d1111;
+}
+
+.testi-text .btn-test {
+    display: flex;
+    gap: 30px;
+    margin-top: 52px;
+}
+
+.testi-text .btn-test .chervon {
+    line-height: 0.8;
+    display: block;
+    padding: 18.8px 22px 18.8px 22px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+}
+
+.testi-text .btn-test .chervon:hover path {
+    stroke: #fff;
+}
+
+.testi-text .btn-test .chervon:hover {
+    background-color: var(--primary-color);
+}
+
+.testi-img {
+    width: 58%;
+    height: 481px;
+    position: relative;
+}
+
+.testi-img .avatar {
+    border-radius: 50%;
+    position: absolute;
+}
+
+.testi-img .avatar .back-ground {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.testi-img .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
