@@ -578,3 +578,45 @@ header .nav-btn .sign-up:hover {
     font-size: 1.8rem;
     color: #767e7e;
 }
+
+/* Footer */
+
+.footer {
+    padding: 131px 0 50px;
+}
+
+.footer .footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer .footer-column {
+    max-width: 157px;
+}
+
+.footer .footer-column .title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #2e2e2e;
+}
+
+.footer .footer-column .item {
+    display: flex;
+    font-size: 1.6rem;
+    color: #535353;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.footer .footer-column .item img {
+    margin-right: 9px;
+}
+
+.footer .copyright {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #b0b5b4;
+}
